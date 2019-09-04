@@ -105,14 +105,5 @@
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Student Exchange Vector.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\LoginBackground.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\LoginBackground_2.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
