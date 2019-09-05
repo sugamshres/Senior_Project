@@ -31,5 +31,10 @@ namespace SchoolApp_Student
             // Begin dragging the window
             DragMove();
         }
+
+        private void DisplayPersonalInformationView(object sender, RoutedEventArgs e)
+        {
+            tmp.Visibility = Visibility.Visible;
+        }
     }
 }
