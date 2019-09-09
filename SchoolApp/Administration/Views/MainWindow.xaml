@@ -67,35 +67,35 @@
         </StackPanel>
 
         <StackPanel Background="Black" >
-            <TextBlock Text="Admin" 
+            <TextBlock Text="{StaticResource Modulelbl}" 
                        Foreground="White" 
                        FontSize="40" 
                        HorizontalAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="1" 
                     Background="Black" >
-            <Button Content="School Setup" 
+            <Button Content="{StaticResource SchoolSetuplbl}" 
                     FontSize="16" 
                     VerticalContentAlignment="Center" 
                     Margin="10 20 10 0" 
                     Click="DisplaySchoolSetupView" />
-            <Button Content="Departments" 
+            <Button Content="{StaticResource Departmentslbl}" 
                     FontSize="16" 
                     VerticalContentAlignment="Center"
                     Margin="10 40 10 0" />
-            <Button Content="Majors/Minors" 
+            <Button Content="{StaticResource MajorMinorlbl}" 
                     FontSize="16" 
                     VerticalContentAlignment="Center"
                     Margin="10 40 10 0" />
-            <Button Content="Professors"
+            <Button Content="{StaticResource Professorslbl}"
                     FontSize="16" 
                     VerticalContentAlignment="Center"
                     Margin="10 40 10 0" />
-            <Button Content="Buildings/Rooms"
+            <Button Content="{StaticResource BuildingRoomslbl}"
                     FontSize="16" 
                     VerticalContentAlignment="Center"
                     Margin="10 40 10 0" />
-            <Button Content="Mascot" 
+            <Button Content="{StaticResource Mascotlbl}" 
                     FontSize="16" 
                     VerticalContentAlignment="Center" 
                     Margin="10 40 10 0" />
