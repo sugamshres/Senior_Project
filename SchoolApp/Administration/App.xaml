@@ -9,7 +9,13 @@
         <ResourceDictionary>
 
             <!--Hard-coded Strings-->
-            <sys:String x:Key="exampleName">example hard-coded string</sys:String>
+            <sys:String x:Key="Modulelbl">Admin</sys:String>
+            <sys:String x:Key="SchoolSetuplbl">School Setup</sys:String>
+            <sys:String x:Key="Departmentslbl">Departments</sys:String>
+            <sys:String x:Key="Professorslbl">Professors</sys:String>
+            <sys:String x:Key="MajorMinorlbl">Majors / Minors</sys:String>
+            <sys:String x:Key="BuildingRoomslbl">Buildings / Rooms</sys:String>
+            <sys:String x:Key="Mascotlbl">Mascot</sys:String>
             
             <!--Hard-coded Image locations-->
             <BitmapImage x:Key="HomeIcon" UriSource="..\Images\Icons\Home.png"/>
