@@ -85,10 +85,16 @@
                     Content="Personal Information" 
                     FontSize="14"
                     Click="DisplayPersonalInformationView"/>
+            <Button 
+                    Margin="20"
+                    Height="40"
+                    Content="Username/Password"
+                    FontSize="14" Click="DisplayUsernamePasswordView"/>
         </StackPanel>
 
         <!-- Temporary, this is not how this should be done-->
         <controls:PersonalInformationView x:Name="tmp" Grid.Row="1" Grid.Column="1" Visibility="Hidden" />
+        <controls:UsernamePasswordView x:Name="tmp2" Grid.Row="1" Grid.Column="1" Visibility="Hidden"/>
         <!--embedding a usercontrol in a Window ^^^ -->
         
     </Grid>
