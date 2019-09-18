@@ -36,5 +36,10 @@ namespace SchoolApp_Professor
         {
             tmp.Visibility = Visibility.Visible;
         }
+        
+        private void DisplayUsernamePasswordView(object sender, RoutedEventArgs e)
+        {
+            tmp2.Visibility = Visibility.Visible;
+        }
     }
 }
