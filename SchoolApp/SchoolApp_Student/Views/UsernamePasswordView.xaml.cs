@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SchoolApp_Professor.Views
+namespace SchoolApp_Student.Views
 {
     /// <summary>
-    /// Interaction logic for testView.xaml
+    /// Interaction logic for UsernamePasswordView.xaml
     /// </summary>
-    public partial class testView : UserControl
+    public partial class UsernamePasswordView : UserControl
     {
-        public testView()
+        public UsernamePasswordView()
         {
             InitializeComponent();
         }
