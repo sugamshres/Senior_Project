@@ -11,7 +11,12 @@
         <!--Hard-coded strings-->
         <sys:String x:Key="examplelblName">Actual example label</sys:String>
 
-        <!--Themes-->
+        <!--Hard-coded Image locations-->
+        <BitmapImage x:Key="HomeIcon" UriSource="..\Images\Icons\Home.png"/>
+        <BitmapImage x:Key="SettingsIcon" UriSource="..\Images\Icons\Settings.png"/>
+        <BitmapImage x:Key="ShutDownIcon" UriSource="..\Images\Icons\Shutdown.png"/>
+
+            <!--Themes-->
         <ResourceDictionary.MergedDictionaries>
             <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
             <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />

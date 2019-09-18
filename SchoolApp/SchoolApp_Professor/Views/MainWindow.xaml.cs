@@ -25,6 +25,12 @@ namespace SchoolApp_Professor
             InitializeComponent();
         }
 
+        private void ShutDown(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+            //check if the current screen has any unsaved data -> output message to save or not?
+        }
+
         private void OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             base.OnMouseLeftButtonDown(e);
