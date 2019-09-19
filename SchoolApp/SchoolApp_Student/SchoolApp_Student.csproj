@@ -57,6 +57,9 @@
     <Compile Include="Views\PersonalInformationView.xaml.cs">
       <DependentUpon>PersonalInformationView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\UsernamePasswordView.xaml.cs">
+      <DependentUpon>UsernamePasswordView.xaml</DependentUpon>
+    </Compile>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,6 +73,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\PersonalInformationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UsernamePasswordView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
