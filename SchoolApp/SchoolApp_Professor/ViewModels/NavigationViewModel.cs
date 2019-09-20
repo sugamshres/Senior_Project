@@ -9,7 +9,7 @@ using System.Windows.Input;
 
 namespace SchoolApp_Professor.ViewModels
 {
-    public class NavigationViewModel : INotifyPropertyChanged
+    public class NavigationViewModel : BaseViewModel, INotifyPropertyChanged
     {
         #region Fields
         private object selectedViewModel;
@@ -92,18 +92,6 @@ namespace SchoolApp_Professor.ViewModels
             public void Execute(object parameter)
             {
                 _method.Invoke(parameter);
-            }
-        }
-        #endregion
-
-        #region INotifyPropertyChanged
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        public void propertyChanged([CallerMemberName] String propertyName = "")
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
         #endregion
