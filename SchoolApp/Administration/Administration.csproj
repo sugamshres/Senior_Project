@@ -54,6 +54,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModels\NavigationViewModel.cs" />
+    <Compile Include="ViewModels\SchoolSetupViewModel.cs" />
     <Compile Include="Views\SchoolSetupView.xaml.cs">
       <DependentUpon>SchoolSetupView.xaml</DependentUpon>
     </Compile>
@@ -102,7 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes">
