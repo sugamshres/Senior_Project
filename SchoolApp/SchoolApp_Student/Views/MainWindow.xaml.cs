@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SchoolApp_Student.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,11 @@ namespace SchoolApp_Student
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly NavigationViewModel nav = new NavigationViewModel();
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = nav;
         }
 
         private void ShutDown(object sender, RoutedEventArgs e)
@@ -38,14 +41,5 @@ namespace SchoolApp_Student
             DragMove();
         }
 
-        private void DisplayPersonalInformationView(object sender, RoutedEventArgs e)
-        {
-            tmp.Visibility = Visibility.Visible;
-        }
-        
-        private void DisplayUsernamePasswordView(object sender, RoutedEventArgs e)
-        {
-            tmp2.Visibility = Visibility.Visible;
-        }
     }
 }

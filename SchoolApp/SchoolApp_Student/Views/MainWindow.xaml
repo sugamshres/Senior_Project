@@ -5,12 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:controls="clr-namespace:SchoolApp_Student.Views"
         xmlns:local="clr-namespace:SchoolApp_Student"
+        xmlns:vms="clr-namespace:SchoolApp_Student.ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="750" Width="1200" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+        Title="MainWindow" Height="750" Width="1200" WindowStyle="None"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
 
-    
-    
-        <Grid>
+    <Window.DataContext>
+        <vms:NavigationViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vms:PersonalInformationViewModel}">
+            <controls:PersonalInformationView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:UsernamePasswordViewModel}">
+            <controls:UsernamePasswordView/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="4*"/>
@@ -39,7 +52,6 @@
                             ToolTip="Home" 
                             Padding="-8"
                             Margin="15 0 0 0">
-                        <!--Temporary: Image locations will also be placed in App.xaml-->
                         <Image Source="{StaticResource HomeIcon}" 
                             Height="30" 
                             Width="30"/>
@@ -82,21 +94,18 @@
                     Background="Black">
             <Button Margin="20" 
                     Height="40" 
-                    Content="Personal Information" 
+                    Content="{StaticResource PersonalInfo}" 
                     FontSize="14"
-                    Click="DisplayPersonalInformationView"/>
+                    Command="{Binding PersonalInformationCommand}"/>
             <Button 
                     Margin="20"
                     Height="40"
-                    Content="Username/Password"
-                    FontSize="14" Click="DisplayUsernamePasswordView"/>
+                    Content="{StaticResource UsernamePwd}"
+                    Command="{Binding UsernamePasswordCommand}"/>
         </StackPanel>
 
-        <!-- Temporary, this is not how this should be done-->
-        <controls:PersonalInformationView x:Name="tmp" Grid.Row="1" Grid.Column="1" Visibility="Hidden" />
-        <controls:UsernamePasswordView x:Name="tmp2" Grid.Row="1" Grid.Column="1" Visibility="Hidden"/>
-        <!--embedding a usercontrol in a Window ^^^ -->
-        
+        <ContentControl  Content="{Binding SelectedViewModel}" Grid.Column="1" Grid.Row="1"/>
+
     </Grid>
     
 </Window>
