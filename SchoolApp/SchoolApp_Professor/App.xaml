@@ -8,12 +8,13 @@
 
         <ResourceDictionary>
         <!--Hard-coded strings-->
-        <sys:String x:Key="nameOfLabel">actual_label_example</sys:String>
+            <sys:String x:Key="UsernamePwd">Username / Password</sys:String>
+            <sys:String x:Key="PersonalInfo">Personal Information</sys:String>
 
-        <!--Hard-coded Image locations-->
-        <BitmapImage x:Key="HomeIcon" UriSource="..\Images\Icons\Home.png"/>
-        <BitmapImage x:Key="SettingsIcon" UriSource="..\Images\Icons\Settings.png"/>
-        <BitmapImage x:Key="ShutDownIcon" UriSource="..\Images\Icons\Shutdown.png"/>
+            <!--Hard-coded Image locations-->
+            <BitmapImage x:Key="HomeIcon" UriSource="..\Images\Icons\Home.png"/>
+            <BitmapImage x:Key="SettingsIcon" UriSource="..\Images\Icons\Settings.png"/>
+            <BitmapImage x:Key="ShutDownIcon" UriSource="..\Images\Icons\Shutdown.png"/>
 
             <!--Themes-->
         <ResourceDictionary.MergedDictionaries>
