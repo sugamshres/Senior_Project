@@ -12,14 +12,14 @@
             <TextBlock Text="First Name" FontWeight="Bold" FontSize="16" Margin="0 0 0 8"/>
             <TextBox Width="400" HorizontalAlignment="Left" FontSize="14"/>
 
-            <TextBlock Text="Last Name" FontWeight="Bold" FontSize="16" Margin="0 0 0 8"/>
+            <TextBlock Text="Last Name" FontWeight="Bold" FontSize="16" Margin="0 40 0 8"/>
             <TextBox Width="400" HorizontalAlignment="Left" FontSize="14"/>
 
 
-            <TextBlock Text="Phone Number" FontWeight="Bold" FontSize="16" Margin="0 0 0 8"/>
+            <TextBlock Text="Phone Number" FontWeight="Bold" FontSize="16" Margin="0 40 0 8"/>
             <TextBox Width="400" HorizontalAlignment="Left" FontSize="14"/>
 
-            <TextBlock Text="School Email" FontWeight="Bold" FontSize="16" Margin="0 0 0 8"/>
+            <TextBlock Text="School Email" FontWeight="Bold" FontSize="16" Margin="0 40 0 8"/>
             <TextBox Width="400" HorizontalAlignment="Left" FontSize="14"/>
         </StackPanel>
 
