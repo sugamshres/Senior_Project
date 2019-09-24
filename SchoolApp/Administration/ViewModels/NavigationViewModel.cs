@@ -9,7 +9,7 @@ using System.Windows.Input;
 
 namespace Administration.ViewModels
 {
-    public class NavigationViewModel : BaseViewModel, INotifyPropertyChanged
+    public class NavigationViewModel : INotifyPropertyChanged
     {
         #region Fields
         private object selectedViewModel;
@@ -88,5 +88,16 @@ namespace Administration.ViewModels
         }
         #endregion
 
+        #region INotifyPropertyChanged
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void propertyChanged([CallerMemberName] String propertyName = "")
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+        #endregion
     }
 }
