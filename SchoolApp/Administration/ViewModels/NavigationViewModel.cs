@@ -19,13 +19,15 @@ namespace Administration.ViewModels
         #region Constructors
         public NavigationViewModel()
         {
-            SchoolSetupCommand = new BaseCommand(OpenSchoolSetupView);            
+            SchoolSetupCommand = new BaseCommand(OpenSchoolSetupView);
+            ProfessorsCommand = new BaseCommand(OpenProfessorsView);
         }
 
         #endregion
 
         #region Public Properties
         public ICommand SchoolSetupCommand { get; set; }
+        public ICommand ProfessorsCommand { get; set; }
 
         #endregion
 
@@ -49,6 +51,11 @@ namespace Administration.ViewModels
         private void OpenSchoolSetupView(object obj)
         {
             SelectedViewModel = new SchoolSetupViewModel();
+        }
+        
+        private void OpenProfessorsView(object obj)
+        {
+            SelectedViewModel = new ProfessorsViewModel();
         }
         #endregion
 
