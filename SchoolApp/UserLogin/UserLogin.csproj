@@ -42,7 +42,7 @@
       <HintPath>packages\MaterialDesignThemes.2.6.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="SchoolU_Database">
-      <HintPath>..\..\..\DB_dll\SchoolU_Database\bin\Debug\SchoolU_Database.dll</HintPath>
+      <HintPath>..\SchoolU_Database\bin\Debug\SchoolU_Database.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
