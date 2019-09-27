@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SchoolSetup
+namespace UserLogin
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,26 +24,5 @@ namespace SchoolSetup
         {
             InitializeComponent();
         }
-
-        private void AddRemovePwdChar(object sender, RoutedEventArgs e)
-        {
-            //PwdBox.    //add a textblock http://www.codescratcher.com/wpf/display-password-passwordbox-wpf/
-        }
-
-
-        /// <summary>
-        /// Temporary method stating the obvious
-        /// </summary>
-        public void temp()
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("Miguel is awesome!");
-            }
-
-        }
-
-
-
     }
 }

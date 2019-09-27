@@ -1,4 +1,5 @@
-﻿using Administration.Views;
+﻿using Administration.ViewModels;
+using Administration.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,21 +22,17 @@ namespace Administration
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly NavigationViewModel nav = new NavigationViewModel();
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = nav;
         }
 
         private void ShutDown(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
             //check if the current screen has any unsaved data -> output message to save or not?
-        }
-
-        private void DisplaySchoolSetupView(object sender, RoutedEventArgs e)
-        {
-            //Temporary code, this is not how we want to do this
-            tmp.Visibility = Visibility.Visible;
         }
 
         private void OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
