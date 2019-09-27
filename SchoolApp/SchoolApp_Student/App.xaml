@@ -9,7 +9,12 @@
 
         <ResourceDictionary>
         <!--Hard-coded strings-->
-        <sys:String x:Key="examplelblName">Actual example label</sys:String>
+        <sys:String x:Key="UsernamePwd">Username / Password</sys:String>
+        <sys:String x:Key="PersonalInfo">Personal Information</sys:String>
+        <sys:String x:Key="Userpasslbl">Username/Password</sys:String>
+        <sys:String x:Key="Username">Username</sys:String>
+        <sys:String x:Key="Passwd">Password</sys:String>
+        <sys:String x:Key="savebtn_userpass">Save</sys:String>
 
         <!--Themes-->
         <ResourceDictionary.MergedDictionaries>
