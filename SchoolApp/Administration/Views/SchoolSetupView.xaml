@@ -31,7 +31,7 @@
         </StackPanel>
 
         <Image Grid.Column="1" Width="300" Margin="0 0 0 150" Source="/Administration;component/Images/default_mascot.png"/>
-        <Button Grid.Column="1" Width="130" Margin="0 220 0 0" Content="Add Mascot"/>
+        <Button Grid.Column="1" Width="130" Margin="0 220 0 0" Content="{StaticResource AddMascotlbl}"/>
 
         <Button Grid.Column="1" Height="30" Width="80" Content="Save" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 30"/>
 
