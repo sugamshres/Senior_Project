@@ -11,6 +11,7 @@
             <!--Hard-coded strings-->
             <sys:String x:Key="UsernamePwd">Username / Password</sys:String>
             <sys:String x:Key="PersonalInfo">Personal Information</sys:String>
+            <sys:String x:Key="Emaillbl">Email</sys:String>
 
 
             <!--Hard-coded Image locations-->

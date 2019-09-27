@@ -114,10 +114,6 @@
                     FontSize="16" 
                     VerticalContentAlignment="Center"
                     Margin="10 40 10 0" />
-            <Button Content="{StaticResource Mascotlbl}" 
-                    FontSize="16" 
-                    VerticalContentAlignment="Center" 
-                    Margin="10 40 10 0" />
         </StackPanel>
 
         <ContentControl  Content="{Binding SelectedViewModel}" Grid.Column="1" Grid.Row="1"/>
