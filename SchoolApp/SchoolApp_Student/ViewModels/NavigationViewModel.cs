@@ -21,6 +21,7 @@ namespace SchoolApp_Student.ViewModels
         {
             PersonalInformationCommand = new BaseCommand(OpenPersonalInformation);
             UsernamePasswordCommand = new BaseCommand(OpenUsernamePassword);
+            EmailCommand = new BaseCommand(OpenEmail);
         }
 
         #endregion
@@ -28,6 +29,7 @@ namespace SchoolApp_Student.ViewModels
         #region Public Properties
         public ICommand PersonalInformationCommand { get; set; }
         public ICommand UsernamePasswordCommand { get; set; }
+        public ICommand EmailCommand { get; set; }
 
         #endregion
 
@@ -56,6 +58,11 @@ namespace SchoolApp_Student.ViewModels
         private void OpenUsernamePassword(object obj)
         {
             SelectedViewModel = new UsernamePasswordViewModel();
+        }
+
+        private void OpenEmail(object obj)
+        {
+            SelectedViewModel = new EmailViewModel();
         }
 
         #endregion
