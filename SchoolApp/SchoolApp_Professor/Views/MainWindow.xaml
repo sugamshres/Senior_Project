@@ -1,17 +1,19 @@
-﻿<Window x:Class="SchoolApp_Professor.MainWindow"
+﻿<Window x:Class="SchoolApp_Student.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:controls="clr-namespace:SchoolApp_Professor.Views"
-        xmlns:vms="clr-namespace:SchoolApp_Professor.ViewModels"
-        mc:Ignorable="d" Height="750" Width="1200" WindowStyle="None" 
-        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        xmlns:controls="clr-namespace:SchoolApp_Student.Views"
+        xmlns:local="clr-namespace:SchoolApp_Student"
+        xmlns:vms="clr-namespace:SchoolApp_Student.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1200" WindowStyle="None"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
 
     <Window.DataContext>
         <vms:NavigationViewModel/>
     </Window.DataContext>
-    
+
     <Window.Resources>
         <DataTemplate DataType="{x:Type vms:PersonalInformationViewModel}">
             <controls:PersonalInformationView/>
@@ -19,6 +21,10 @@
         <DataTemplate DataType="{x:Type vms:UsernamePasswordViewModel}">
             <controls:UsernamePasswordView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:EmailViewModel}">
+            <controls:EmailView/>
+        </DataTemplate>
+        
     </Window.Resources>
 
     <Grid>
@@ -55,7 +61,7 @@
                             Width="30"/>
                     </Button>
                     <Button Height="40" 
-                            Width="40"
+                            Width="40" 
                             ToolTip="Settings" 
                             Padding="-8" 
                             Margin="15 0 0 0">
@@ -64,7 +70,7 @@
                             Width="30" />
                     </Button>
                     <Button Height="40" 
-                            Width="40" 
+                            Width="40"
                             Click="ShutDown"
                             ToolTip="Shutdown" 
                             Padding="-8" 
@@ -80,7 +86,7 @@
         <!---->
         <StackPanel Background="Black" 
                     MouseLeftButtonDown="OnMouseLeftButtonDown">
-            <TextBlock Text="Professor" 
+            <TextBlock Text="Student" 
                        FontWeight="Bold" 
                        HorizontalAlignment="Center" 
                        FontSize="25" 
@@ -99,10 +105,15 @@
                     Margin="20"
                     Height="40"
                     Content="{StaticResource UsernamePwd}"
-                    FontSize="14" 
                     Command="{Binding UsernamePasswordCommand}"/>
+            <Button 
+                    Margin="20"
+                    Height="40"
+                    Content="{StaticResource Emaillbl}"
+                    Command="{Binding EmailCommand}"/>
         </StackPanel>
-        <ContentControl Content="{Binding SelectedViewModel}" Grid.Column="1" Grid.Row="1"/>
+
+        <ContentControl  Content="{Binding SelectedViewModel}" Grid.Column="1" Grid.Row="1"/>
 
     </Grid>
     
