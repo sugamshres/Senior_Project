@@ -28,6 +28,9 @@
         <DataTemplate DataType="{x:Type ViewModels:BuildingsSetupViewModel}">
             <controls:BuildingsSetupView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:MajorMinorViewModel}">
+            <controls:MajorMinorView/>
+        </DataTemplate>
     </Window.Resources>
 
     <Grid>
@@ -111,7 +114,8 @@
             <Button Content="{StaticResource MajorMinorlbl}" 
                     FontSize="16" 
                     VerticalContentAlignment="Center"
-                    Margin="10 40 10 0" />
+                    Margin="10 40 10 0"
+                    Command="{Binding MajorMinorCommand}"/>
             <Button Content="{StaticResource Professorslbl}"
                     FontSize="16" 
                     VerticalContentAlignment="Center"
