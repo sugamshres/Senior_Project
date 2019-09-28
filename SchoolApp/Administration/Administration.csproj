@@ -62,12 +62,19 @@
     <Compile Include="ViewModels\NavigationViewModel.cs" />
     <Compile Include="ViewModels\ProfessorsViewModel.cs" />
     <Compile Include="ViewModels\SchoolSetupViewModel.cs" />
+    <Compile Include="Views\DepartmentsSetupView.xaml.cs">
+      <DependentUpon>DepartmentsSetupView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ProfessorsView.xaml.cs">
       <DependentUpon>ProfessorsView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SchoolSetupView.xaml.cs">
       <DependentUpon>SchoolSetupView.xaml</DependentUpon>
     </Compile>
+    <Page Include="Views\DepartmentsSetupView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
