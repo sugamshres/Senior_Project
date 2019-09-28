@@ -62,11 +62,15 @@
     <Compile Include="ViewModels\DepartmentsSetupViewModel.cs" />
     <Compile Include="ViewModels\NavigationViewModel.cs" />
     <Compile Include="ViewModels\SchoolSetupViewModel.cs" />
+    <Compile Include="ViewModels\ProfessorsViewModel.cs" />
     <Compile Include="Views\BuildingsSetupView.xaml.cs">
       <DependentUpon>BuildingsSetupView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DepartmentsSetupView.xaml.cs">
       <DependentUpon>DepartmentsSetupView.xaml</DependentUpon>
+    </Compile>
+      <Compile Include="Views\ProfessorsView.xaml.cs">
+      <DependentUpon>ProfessorsView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SchoolSetupView.xaml.cs">
       <DependentUpon>SchoolSetupView.xaml</DependentUpon>
@@ -91,6 +95,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\ProfessorsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\SchoolSetupView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -204,6 +212,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Icons\Student.png" />
+  </ItemGroup>
+   <ItemGroup>
+    <Resource Include="Images\default_mascot.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Icons\studying.png" />
