@@ -18,7 +18,7 @@
             <sys:String x:Key="ZipCodelbl">Zip Code</sys:String>
             <sys:String x:Key="Motto_OtherInfolbl">Motto/Other Information</sys:String>
             <sys:String x:Key="Departmentslbl">Departments</sys:String>
-            <sys:String x:Key="DepartmentFieldlbl">Department</sys:String>
+            <sys:String x:Key="DepartmentFieldlbl">Department Name</sys:String>
             <sys:String x:Key="MajorMinorlbl">Major / Minor</sys:String>
             <sys:String x:Key="Professorslbl">Professors</sys:String>
             <sys:String x:Key="BuildingRoomslbl">Buildings / Rooms</sys:String>
