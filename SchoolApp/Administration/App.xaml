@@ -27,7 +27,8 @@
             <sys:String x:Key="BuildingAbbrlbl">Building Abbreviation</sys:String>
             <sys:String x:Key="NumFLoorslbl">Number of Floors</sys:String>
             <sys:String x:Key="NumRoomslbl">Number of Rooms per Floor</sys:String>
-            
+            <sys:String x:Key="BuilldingRoomsScreenlbl">School Setup</sys:String>
+
 
 
             <!--Hard-coded Image locations-->
