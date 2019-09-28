@@ -17,7 +17,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Email"
+        <TextBlock Text="{StaticResource Emaillbl}"
                    FontWeight="Bold" 
                    HorizontalAlignment="Center" 
                    FontSize="25" 
@@ -25,10 +25,10 @@
                    Margin="0 30 0 0"/>
 
         <StackPanel Grid.Row="1" Margin="0 40 0 0">
-            <Button Content="All Users" Margin="10 10 50 0" />
-            <Button Content="All Students" Margin="10 70 50 0" />
-            <Button Content="Professor" Margin="10 70 50 0" />
-            <Button Content="Select Users" Margin="10 70 50 0"/>
+            <Button Content="{StaticResource AllUserslbl}" Margin="10 10 50 0" />
+            <Button Content="{StaticResource AllStudentlbl}" Margin="10 70 50 0" />
+            <Button Content="{StaticResource Professorslbl}" Margin="10 70 50 0" />
+            <Button Content="{StaticResource SelectUserslbl}" Margin="10 70 50 0"/>
         </StackPanel>
 
 

@@ -98,13 +98,13 @@
                     Background="Black">
             <Button Margin="20" 
                     Height="40" 
-                    Content="{StaticResource PersonalInfo}" 
+                    Content="{StaticResource PersonalInfolbl}" 
                     FontSize="14"
                     Command="{Binding PersonalInformationCommand}"/>
             <Button 
                     Margin="20"
                     Height="40"
-                    Content="{StaticResource UsernamePwd}"
+                    Content="{StaticResource UsernamePwdlbl}"
                     Command="{Binding UsernamePasswordCommand}"/>
             <Button 
                     Margin="20"
