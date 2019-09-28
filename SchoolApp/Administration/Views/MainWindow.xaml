@@ -25,6 +25,9 @@
         <DataTemplate DataType="{x:Type ViewModels:DepartmentsSetupViewModel}">
             <controls:DepartmentsSetupView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:BuildingsSetupViewModel}">
+            <controls:BuildingsSetupView/>
+        </DataTemplate>
     </Window.Resources>
 
     <Grid>
@@ -112,11 +115,16 @@
             <Button Content="{StaticResource Professorslbl}"
                     FontSize="16" 
                     VerticalContentAlignment="Center"
-                    Margin="10 40 10 0" 
+                    Margin="10 40 10 0"
                     Command="{Binding ProfessorsCommand}"/>
             <Button Content="{StaticResource BuildingRoomslbl}"
                     FontSize="16" 
                     VerticalContentAlignment="Center"
+                    Margin="10 40 10 0"
+                    Command="{Binding BuildingsSetupCommand}"/>
+            <Button Content="{StaticResource Mascotlbl}" 
+                    FontSize="16" 
+                    VerticalContentAlignment="Center" 
                     Margin="10 40 10 0" />
         </StackPanel>
 
