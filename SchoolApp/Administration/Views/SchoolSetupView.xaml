@@ -12,8 +12,10 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
-        <StackPanel Grid.Column="0" Margin="30 40 30 20">
+
+        <TextBlock Text="{StaticResource BuilldingRoomsScreenlbl}" FontSize="26" FontWeight="Bold" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0 10 0 0"/>
+
+        <StackPanel Grid.Column="0" Margin="30 115 30 20">
             <TextBlock Text="School Name" FontWeight="Bold" FontSize="16" Margin="0 0 0 8"/>
             <TextBox Width="400" HorizontalAlignment="Left" FontSize="14"/>
 
