@@ -16,12 +16,16 @@
             <sys:String x:Key="MajorMinorlbl">Major / Minor</sys:String>
             <sys:String x:Key="Professorslbl">Professors</sys:String>
             <sys:String x:Key="BuildingRoomslbl">Building / Rooms</sys:String>
-            <sys:String x:Key="AddMascotlbl">Mascot</sys:String>
-            <sys:String x:Key="FirstName">First Name</sys:String>
-            <sys:String x:Key="LastName">Last Name</sys:String>
-            <sys:String x:Key="Department">Department</sys:String>
-            <sys:String x:Key="savebtn_professors">Save</sys:String>
-            <sys:String x:Key="cancelbtn_professors">Cancel</sys:String>
+            <sys:String x:Key="Mascotlbl">Mascot</sys:String>
+            <sys:String x:Key="Savelbl">Save</sys:String>
+            <sys:String x:Key="Cancellbl">Cancel</sys:String>
+            <sys:String x:Key="Addlbl">Add</sys:String>
+            <sys:String x:Key="BuildingNamelbl">Building Name</sys:String>
+            <sys:String x:Key="BuildingAbbrlbl">Building Abbreviation</sys:String>
+            <sys:String x:Key="NumFLoorslbl">Number of Floors</sys:String>
+            <sys:String x:Key="NumRoomslbl">Number of Rooms per Floor</sys:String>
+            
+
 
             <!--Hard-coded Image locations-->
             <BitmapImage x:Key="HomeIcon" UriSource="..\Images\Icons\Home.png"/>
