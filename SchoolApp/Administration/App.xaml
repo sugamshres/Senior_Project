@@ -12,6 +12,11 @@
             <sys:String x:Key="PersonalInfo">Personal Information</sys:String>
             <sys:String x:Key="Modulelbl">Admin</sys:String>
             <sys:String x:Key="SchoolSetuplbl">School Setup</sys:String>
+            <sys:String x:Key="SchoolNamelbl">School Name</sys:String>
+            <sys:String x:Key="Addresslbl">Address</sys:String>
+            <sys:String x:Key="Statelbl">State</sys:String>
+            <sys:String x:Key="ZipCodelbl">Zip Code</sys:String>
+            <sys:String x:Key="Motto_OtherInfolbl">Motto/Other Information</sys:String>
             <sys:String x:Key="Departmentslbl">Departments</sys:String>
             <sys:String x:Key="DepartmentFieldlbl">Department</sys:String>
             <sys:String x:Key="MajorMinorlbl">Major / Minor</sys:String>
