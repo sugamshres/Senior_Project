@@ -13,6 +13,7 @@
             <sys:String x:Key="Modulelbl">Admin</sys:String>
             <sys:String x:Key="SchoolSetuplbl">School Setup</sys:String>
             <sys:String x:Key="Departmentslbl">Departments</sys:String>
+            <sys:String x:Key="DepartmentFieldlbl">Department</sys:String>
             <sys:String x:Key="MajorMinorlbl">Major / Minor</sys:String>
             <sys:String x:Key="Professorslbl">Professors</sys:String>
             <sys:String x:Key="BuildingRoomslbl">Building / Rooms</sys:String>
@@ -28,6 +29,7 @@
             <sys:String x:Key="NumFLoorslbl">Number of Floors</sys:String>
             <sys:String x:Key="NumRoomslbl">Number of Rooms per Floor</sys:String>
             <sys:String x:Key="BuilldingRoomsScreenlbl">School Setup</sys:String>
+            <sys:String x:Key="DepartmentAbbrlbl">Department Abbreviation</sys:String>
 
 
 
