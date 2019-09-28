@@ -9,13 +9,21 @@
 
         <ResourceDictionary>
         <!--Hard coded strings-->
-        <sys:String x:Key="Emaillbl">Email</sys:String>
-        <sys:String x:Key="UsernamePwd">Username / Password</sys:String>
-        <sys:String x:Key="PersonalInfo">Personal Information</sys:String>
-        <sys:String x:Key="Userpasslbl">Username/Password</sys:String>
-        <sys:String x:Key="Username">Username</sys:String>
-        <sys:String x:Key="Passwd">Password</sys:String>
-        <sys:String x:Key="savebtn_userpass">Save</sys:String>
+            <sys:String x:Key="Emaillbl">Email</sys:String>
+            <sys:String x:Key="UsernamePwdlbl">Username / Password</sys:String>
+            <sys:String x:Key="PersonalInfolbl">Personal Information</sys:String>
+            <sys:String x:Key="Userpasslbl">Username/Password</sys:String>
+            <sys:String x:Key="Usernamelbl">Username</sys:String>
+            <sys:String x:Key="Passwdlbl">Password</sys:String>
+            <sys:String x:Key="Savelbl">Save</sys:String>
+            <sys:String x:Key="FirstNamelbl">First Name</sys:String>
+            <sys:String x:Key="LastNamelbl">Last Name</sys:String>
+            <sys:String x:Key="SchoolEmaillbl">School Email</sys:String>
+            <sys:String x:Key="PhoneNumlbl">Phone Number</sys:String>
+            <sys:String x:Key="AllUserslbl">All Users</sys:String>
+            <sys:String x:Key="AllStudentlbl">All Students</sys:String>
+            <sys:String x:Key="Professorslbl">Professors</sys:String>
+            <sys:String x:Key="SelectUserslbl">Select Users</sys:String>
 
 
             <!--Hard-coded Image locations-->
