@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Administration.ViewModels
 {
-    public class ProfessorViewModel : BaseViewModel
+    public class ProfessorsViewModel : BaseViewModel
     {
     }
 }
