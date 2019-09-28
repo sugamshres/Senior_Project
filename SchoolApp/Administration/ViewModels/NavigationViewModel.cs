@@ -23,6 +23,7 @@ namespace Administration.ViewModels
             ProfessorsCommand = new BaseCommand(OpenProfessorsView);
             DepartmentsSetupCommand = new BaseCommand(OpenDepartmentsSetupView);
             BuildingsSetupCommand = new BaseCommand(OpenBuildingsSetupView);
+            MajorMinorCommand = new BaseCommand(OpenMajorMinorView);
         }
 
         #endregion
@@ -32,6 +33,7 @@ namespace Administration.ViewModels
         public ICommand ProfessorsCommand { get; set; }
         public ICommand DepartmentsSetupCommand { get; set; }
         public ICommand BuildingsSetupCommand { get; set; }
+        public ICommand MajorMinorCommand { get; set; }
 
         #endregion
 
@@ -70,6 +72,11 @@ namespace Administration.ViewModels
         private void OpenBuildingsSetupView(object obj)
         {
             SelectedViewModel = new BuildingsSetupViewModel();
+        }
+
+        private void OpenMajorMinorView(object obj)
+        {
+            SelectedViewModel = new MajorMinorViewModel();
         }
         #endregion
 
