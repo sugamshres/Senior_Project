@@ -23,7 +23,7 @@
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button Height="30" Width="80" Content="{StaticResource Savelbl}" FontSize="14" VerticalAlignment="Bottom" Margin="0 0 20 30"/>
+            <Button Height="30" Width="80" Content="{StaticResource Addlbl}" FontSize="14" VerticalAlignment="Bottom" Margin="0 0 20 30"/>
             <Button Height="30" Width="80" Content="{StaticResource Cancellbl}" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 30"/>
         </StackPanel>
 
