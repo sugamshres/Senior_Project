@@ -60,7 +60,7 @@
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\DepartmentsSetupViewModel.cs" />
     <Compile Include="ViewModels\NavigationViewModel.cs" />
-    <Compile Include="ViewModels\ProfessorsViewModel.cs" />
+    <Compile Include="ViewModels\ProfessorViewModel.cs" />
     <Compile Include="ViewModels\SchoolSetupViewModel.cs" />
     <Compile Include="Views\SchoolSetupView.xaml.cs">
       <DependentUpon>SchoolSetupView.xaml</DependentUpon>
