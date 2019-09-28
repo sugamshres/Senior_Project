@@ -18,8 +18,8 @@
             <ComboBox Width="150" HorizontalAlignment="Left" FontSize="14"/>
         </StackPanel>
 
-        <Button Height="30" Width="80" Content="{StaticResource savebtn_professors}" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,31" RenderTransformOrigin="0.906,0.433"/>
-        <Button Height="30" Width="80" Content="{StaticResource cancelbtn_professors}" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,120,31" RenderTransformOrigin="1.319,0.533"/>
+        <Button Height="30" Width="80" Content="{StaticResource Savelbl}" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,31" RenderTransformOrigin="0.906,0.433"/>
+        <Button Height="30" Width="80" Content="{StaticResource Cancellbl}" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,120,31" RenderTransformOrigin="1.319,0.533"/>
 
     </Grid>
 </UserControl>
