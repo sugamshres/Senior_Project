@@ -20,6 +20,7 @@
             <sys:String x:Key="Departmentslbl">Departments</sys:String>
             <sys:String x:Key="DepartmentFieldlbl">Department Name</sys:String>
             <sys:String x:Key="MajorMinorlbl">Major / Minor</sys:String>
+            <sys:String x:Key="Majorlbl">Major</sys:String>
             <sys:String x:Key="Professorslbl">Professors</sys:String>
             <sys:String x:Key="BuildingRoomslbl">Buildings / Rooms</sys:String>
             <sys:String x:Key="AddMascotlbl">Mascot</sys:String>
@@ -35,6 +36,9 @@
             <sys:String x:Key="NumRoomslbl">Number of Rooms per Floor</sys:String>
             <sys:String x:Key="BuilldingRoomsScreenlbl">School Setup</sys:String>
             <sys:String x:Key="DepartmentAbbrlbl">Department Abbreviation</sys:String>
+            <sys:String x:Key="Removelbl">Remove</sys:String>
+            <sys:String x:Key="Editlbl">Editl</sys:String>
+            <sys:String x:Key="Abbrlbl">Abbr</sys:String>
 
 
 
