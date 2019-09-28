@@ -26,8 +26,8 @@
 
         <StackPanel Grid.Row="1" Margin="0 40 0 0">
             <Button Content="{StaticResource AllUserslbl}" Margin="10 10 50 0" />
-            <Button Content="{StaticResource AllStudentlbl}" Margin="10 30 50 0" />
-            <Button Content="{StaticResource SelectUserslbl}" Margin="10 30 50 0"/>
+            <Button Content="{StaticResource AllStudentlbl}" Margin="10 70 50 0" />
+            <Button Content="{StaticResource SelectUserslbl}" Margin="10 70 50 0"/>
         </StackPanel>
 
         <Button Grid.Column="2"
