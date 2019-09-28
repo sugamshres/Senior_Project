@@ -21,7 +21,7 @@
             <sys:String x:Key="DepartmentFieldlbl">Department</sys:String>
             <sys:String x:Key="MajorMinorlbl">Major / Minor</sys:String>
             <sys:String x:Key="Professorslbl">Professors</sys:String>
-            <sys:String x:Key="BuildingRoomslbl">Building / Rooms</sys:String>
+            <sys:String x:Key="BuildingRoomslbl">Buildings / Rooms</sys:String>
             <sys:String x:Key="AddMascotlbl">Mascot</sys:String>
             <sys:String x:Key="FirstName">First Name</sys:String>
             <sys:String x:Key="LastName">Last Name</sys:String>
