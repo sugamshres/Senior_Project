@@ -31,11 +31,11 @@
             <sys:String x:Key="Cancellbl">Cancel</sys:String>
             <sys:String x:Key="Addlbl">Add</sys:String>
             <sys:String x:Key="BuildingNamelbl">Building Name</sys:String>
-            <sys:String x:Key="BuildingAbbrlbl">Building Abbreviation</sys:String>
+            <sys:String x:Key="BuildingAbbrlbl">Building Abbr</sys:String>
             <sys:String x:Key="NumFLoorslbl">Number of Floors</sys:String>
             <sys:String x:Key="NumRoomslbl">Number of Rooms per Floor</sys:String>
             <sys:String x:Key="BuilldingRoomsScreenlbl">School Setup</sys:String>
-            <sys:String x:Key="DepartmentAbbrlbl">Department Abbreviation</sys:String>
+            <sys:String x:Key="DepartmentAbbrlbl">Department Abbr</sys:String>
             <sys:String x:Key="Removelbl">Remove</sys:String>
             <sys:String x:Key="Editlbl">Editl</sys:String>
             <sys:String x:Key="Abbrlbl">Abbr</sys:String>
