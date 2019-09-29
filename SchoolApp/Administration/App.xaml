@@ -35,7 +35,7 @@
             <sys:String x:Key="NumRoomslbl">Number of Rooms per Floor</sys:String>
             <sys:String x:Key="DepartmentAbbrlbl">Department Abbr</sys:String>
             <sys:String x:Key="Removelbl">Remove</sys:String>
-            <sys:String x:Key="Editlbl">Editl</sys:String>
+            <sys:String x:Key="Editlbl">Edit</sys:String>
             <sys:String x:Key="Abbrlbl">Abbr</sys:String>
 
 
