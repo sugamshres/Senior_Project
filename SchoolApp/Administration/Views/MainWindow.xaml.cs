@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,6 +26,7 @@ namespace Administration
         private readonly NavigationViewModel nav = new NavigationViewModel();
         public MainWindow()
         {
+            Thread.Sleep(1500);
             InitializeComponent();
             DataContext = nav;
         }
