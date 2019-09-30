@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolApp_Professor.ViewModels
 {
-    public class PersonalInformationViewModel : BaseViewModel
+    public class EmailViewModel
     {
     }
 }

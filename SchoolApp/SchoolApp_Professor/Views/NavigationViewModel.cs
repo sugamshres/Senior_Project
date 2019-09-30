@@ -7,9 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace SchoolApp_Professor.ViewModels
+namespace Administration.ViewModels
 {
-    public class NavigationViewModel : BaseViewModel, INotifyPropertyChanged
+    public class NavigationViewModel : INotifyPropertyChanged
     {
         #region Fields
         private object selectedViewModel;
@@ -19,18 +19,15 @@ namespace SchoolApp_Professor.ViewModels
         #region Constructors
         public NavigationViewModel()
         {
-            PersonalInformationCommand = new BaseCommand(OpenPersonalInformation);
-            UsernamePasswordCommand = new BaseCommand(OpenUsernamePassword);
-            EmailCommand = new BaseCommand(OpenEmail);
+            SchoolSetupCommand = new BaseCommand(OpenSchoolSetupView);
+            MajorMinorCommand = new BaseCommand(OpenMajorMinorView);
         }
 
         #endregion
 
         #region Public Properties
-        public ICommand PersonalInformationCommand { get; set; }
-        public ICommand UsernamePasswordCommand { get; set; }
-
-        public ICommand EmailCommand { get; set; }
+        public ICommand SchoolSetupCommand { get; set; }
+        public ICommand MajorMinorCommand { get; set; }
 
         #endregion
 
@@ -51,21 +48,15 @@ namespace SchoolApp_Professor.ViewModels
         #endregion
 
         #region Private Methods
-        private void OpenPersonalInformation(object obj)
+        private void OpenSchoolSetupView(object obj)
         {
-            SelectedViewModel = new PersonalInformationViewModel();
+            SelectedViewModel = new SchoolSetupViewModel();
         }
 
-        private void OpenUsernamePassword(object obj)
+        private void OpenMajorMinorView(object obj)
         {
-            SelectedViewModel = new UsernamePasswordViewModel();
+            SelectedViewModel = new MajorMinorViewModel();
         }
-
-        private void OpenEmail(object obj)
-        {
-            SelectedViewModel = new EmailViewModel();
-        }
-
         #endregion
 
         //Do not remove the code below
@@ -100,6 +91,18 @@ namespace SchoolApp_Professor.ViewModels
             public void Execute(object parameter)
             {
                 _method.Invoke(parameter);
+            }
+        }
+        #endregion
+
+        #region INotifyPropertyChanged
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void propertyChanged([CallerMemberName] String propertyName = "")
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
         #endregion

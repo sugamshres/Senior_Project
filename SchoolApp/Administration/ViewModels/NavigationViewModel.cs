@@ -20,14 +20,22 @@ namespace Administration.ViewModels
         public NavigationViewModel()
         {
             SchoolSetupCommand = new BaseCommand(OpenSchoolSetupView);
+            ProfessorsCommand = new BaseCommand(OpenProfessorsView);
             DepartmentsSetupCommand = new BaseCommand(OpenDepartmentsSetupView);
+            BuildingsSetupCommand = new BaseCommand(OpenBuildingsSetupView);
+            MajorMinorCommand = new BaseCommand(OpenMajorMinorView);
+            CoursesCommand = new BaseCommand(OpenCoursesView);
         }
 
         #endregion
 
         #region Public Properties
         public ICommand SchoolSetupCommand { get; set; }
+        public ICommand ProfessorsCommand { get; set; }
         public ICommand DepartmentsSetupCommand { get; set; }
+        public ICommand BuildingsSetupCommand { get; set; }
+        public ICommand MajorMinorCommand { get; set; }
+        public ICommand CoursesCommand { get; set; }
 
         #endregion
 
@@ -53,9 +61,29 @@ namespace Administration.ViewModels
             SelectedViewModel = new SchoolSetupViewModel();
         }
 
+        private void OpenProfessorsView(object obj)
+        {
+            SelectedViewModel = new ProfessorsViewModel();
+        }
+        
         private void OpenDepartmentsSetupView(object obj)
         {
             SelectedViewModel = new DepartmentsSetupViewModel();
+        }
+
+        private void OpenBuildingsSetupView(object obj)
+        {
+            SelectedViewModel = new BuildingsSetupViewModel();
+        }
+
+        private void OpenMajorMinorView(object obj)
+        {
+            SelectedViewModel = new MajorMinorViewModel();
+        }
+
+        private void OpenCoursesView(object obj)
+        {
+            SelectedViewModel = new CoursesViewModel();
         }
         #endregion
 

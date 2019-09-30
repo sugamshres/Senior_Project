@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="SchoolApp_Student.Views.EmailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SchoolApp_Student.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".1*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{StaticResource Emaillbl}"
+                   FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   FontSize="26" 
+                   Grid.ColumnSpan="2"
+                   Margin="0 10 0 0"/>
+
+        <StackPanel Grid.Row="1" Margin="0 40 0 0">
+            <Button Content="{StaticResource AllUserslbl}" Margin="10 10 50 0" />
+            <Button Content="{StaticResource AllStudentlbl}" Margin="10 70 50 0" />
+            <Button Content="{StaticResource Professorslbl}" Margin="10 70 50 0" />
+            <Button Content="{StaticResource SelectUserslbl}" Margin="10 70 50 0"/>
+        </StackPanel>
+
+
+    </Grid>
+</UserControl>

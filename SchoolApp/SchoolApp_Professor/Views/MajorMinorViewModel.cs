@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolApp_Professor.ViewModels
+namespace Administration.ViewModels
 {
-    public class PersonalInformationViewModel : BaseViewModel
+    public class MajorMinorViewModel
     {
     }
 }

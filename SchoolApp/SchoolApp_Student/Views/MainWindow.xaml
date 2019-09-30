@@ -21,6 +21,10 @@
         <DataTemplate DataType="{x:Type vms:UsernamePasswordViewModel}">
             <controls:UsernamePasswordView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:EmailViewModel}">
+            <controls:EmailView/>
+        </DataTemplate>
+        
     </Window.Resources>
 
     <Grid>
@@ -94,14 +98,19 @@
                     Background="Black">
             <Button Margin="20" 
                     Height="40" 
-                    Content="{StaticResource PersonalInfo}" 
+                    Content="{StaticResource PersonalInfolbl}" 
                     FontSize="14"
                     Command="{Binding PersonalInformationCommand}"/>
             <Button 
                     Margin="20"
                     Height="40"
-                    Content="{StaticResource UsernamePwd}"
+                    Content="{StaticResource UsernamePwdlbl}"
                     Command="{Binding UsernamePasswordCommand}"/>
+            <Button 
+                    Margin="20"
+                    Height="40"
+                    Content="{StaticResource Emaillbl}"
+                    Command="{Binding EmailCommand}"/>
         </StackPanel>
 
         <ContentControl  Content="{Binding SelectedViewModel}" Grid.Column="1" Grid.Row="1"/>
