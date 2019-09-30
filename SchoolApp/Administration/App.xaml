@@ -25,7 +25,7 @@
             <sys:String x:Key="AddMascotlbl">Mascot</sys:String>
             <sys:String x:Key="FirstName">First Name</sys:String>
             <sys:String x:Key="LastName">Last Name</sys:String>
-            <sys:String x:Key="Department">Department</sys:String>
+            <sys:String x:Key="Departmentlbl">Department</sys:String>
             <sys:String x:Key="Savelbl">Save</sys:String>
             <sys:String x:Key="Cancellbl">Cancel</sys:String>
             <sys:String x:Key="Addlbl">Add</sys:String>
@@ -37,6 +37,10 @@
             <sys:String x:Key="Removelbl">Remove</sys:String>
             <sys:String x:Key="Editlbl">Edit</sys:String>
             <sys:String x:Key="Abbrlbl">Abbr</sys:String>
+            <sys:String x:Key="Deletelbl">Delete</sys:String>
+            <sys:String x:Key="CourseNamelbl">Course Name</sys:String>
+            <sys:String x:Key="AddPreReqslbl">Add Pre-requisites</sys:String>
+            <sys:String x:Key="Courseslbl">Courses</sys:String>
 
 
 
