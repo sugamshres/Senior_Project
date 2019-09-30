@@ -31,6 +31,9 @@
         <DataTemplate DataType="{x:Type ViewModels:MajorMinorViewModel}">
             <controls:MajorMinorView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:CoursesViewModel}">
+            <controls:CoursesView/>
+        </DataTemplate>
     </Window.Resources>
 
     <Grid>
@@ -42,8 +45,6 @@
             <ColumnDefinition Width=".30*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-
-        <!--embedding a usercontrol in a Window ^^^ -->
 
         <StackPanel Grid.Column="2" 
                     Background="Black" 
@@ -126,6 +127,11 @@
                     VerticalContentAlignment="Center"
                     Margin="10 40 10 0"
                     Command="{Binding BuildingsSetupCommand}"/>
+            <Button Content="{StaticResource Courseslbl}"
+                    FontSize="16" 
+                    VerticalContentAlignment="Center"
+                    Margin="10 40 10 0"
+                    Command="{Binding CoursesCommand}"/>
             
         </StackPanel>
 
